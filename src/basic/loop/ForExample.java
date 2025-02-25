@@ -14,7 +14,7 @@ public class ForExample {
         // 1 ~ 200까지의 정수 중 6의 배수이면서 12의 배수는 아닌 수를 가로로 출력
         for (int i = 0; i <= 200; i++) {
             if (i % 6 == 0 && i % 12 != 0){
-                System.out.println(i + " ");
+                System.out.print(i + " ");
             }
         }
 
@@ -33,6 +33,7 @@ public class ForExample {
 
         }
         System.out.println(result);
+
         sc.close();
 
         
